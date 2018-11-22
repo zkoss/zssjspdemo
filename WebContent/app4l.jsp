@@ -21,7 +21,7 @@
 			showToolbar="true" showFormulabar="true" showContextMenu="true"/>
 	</div>
 	<button id="resetBtn">Reset</button>
-	<button id="checkBtn">OK</button>
+	<button id="checkBtn">Submit</button>
 	<script type="text/javascript">
 	//jq is jquery name in zk, which version is 1.6.4 in sparedsheet 3.0.0 (zk 6.5.3 and later) 
 	jq(document).ready(function(){
