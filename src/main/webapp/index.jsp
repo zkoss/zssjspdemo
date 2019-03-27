@@ -9,7 +9,7 @@
 	</head>
 <body>
 	<div>
-		<zssjsp:spreadsheet id="myzss" src="/WEB-INF/books/application_for_leave.xlsx"
+		<zssjsp:spreadsheet id="myzss" src="/WEB-INF/books/application_for_leave.xlsx" apply="org.zkoss.zss.jspdemo.MyComposer"
 			width="1024px" height="768px" 
 			maxrows="100" maxcolumns="20"
 			showToolbar="true" showFormulabar="true" showContextMenu="true" showSheetbar="true"/>
