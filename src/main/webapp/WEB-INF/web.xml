@@ -14,6 +14,14 @@
 		<listener-class>org.zkoss.zk.ui.http.HttpSessionListener</listener-class>
 	</listener>
 	<servlet>
+		<servlet-name>fileLoader</servlet-name>
+		<servlet-class>org.zkoss.zss.jspdemo.FileLoadServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>fileLoader</servlet-name>
+		<url-pattern>/load</url-pattern>
+	</servlet-mapping>
+	<servlet>
 		<description>ZK loader for ZUML pages</description>
 		<servlet-name>zkLoader</servlet-name>
 		<servlet-class>org.zkoss.zk.ui.http.DHtmlLayoutServlet</servlet-class>
